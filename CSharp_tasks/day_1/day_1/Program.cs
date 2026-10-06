@@ -41,6 +41,7 @@ namespace day_1
             Console.WriteLine($"Student 2: {Names[1]}");
             Console.WriteLine($"Student 3: {Names[2]}");
             Console.WriteLine($"Student 4: {Names[3]}");
+            Console.WriteLine($"Student Length: {Names.Length}");
 
             Names[3] = "Hossam";
             Console.WriteLine("===== After  Change  =====");
